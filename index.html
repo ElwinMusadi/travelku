@@ -18,7 +18,7 @@
 
   <title>Travelku</title>
 </head>
-<body class="font-body antialiased overflow-x-hidden">
+<body class="font-body antialiased">
   
   <!-- Navbar -->
   <!-- Default: bg-gray-800 -->
@@ -82,7 +82,7 @@
       </div>
     </div>
 
-    <div class="absolute bottom-0">
+    <div class="absolute bottom-0 w-full">
       <div id="owl-one" class="owl-carousel flex">
         <div class="item first w-80 text-white px-6 py-7 bg-gray-travel bg-opacity-30 bg-blur-md border-r border-gray-600 opacity-60 transition-all ease-in duration-200">
           <h4 class="font-display text-lg mb-2">Lifelong memories, just a few clicks away</h4>
@@ -204,14 +204,14 @@
   <section class="popular relative bg-blue-50" style="height: 623px;">
     <div class="container relative" style="top: -310px;">
       <div class="flex items-center justify-between mb-12">
-        <div class="font-display text-3xl font-bold text-akana-green">Popular Destination</div>
+        <div class="w-1/2 font-display text-3xl font-bold text-akana-green">Popular Destination</div>
         <div class="nav-popular">
-          <button class="w-12 h-12 rounded-full mr-6 border-2 border-gray-travel text-gray-travel hover:text-akana-green hover:border-akana-green focus:outline-none focus:border-akana-green focus:text-akana-green py-3 px-3 transition-colors ease-out duration-300">
+          <button class="w-10 h-10 sm:w-12 sm:h-12 rounded-full mr-3 md:mr-6 border-2 border-gray-travel text-gray-travel hover:text-akana-green hover:border-akana-green focus:outline-none focus:border-akana-green focus:text-akana-green py-2 px-2 sm:py-3 sm:px-3 transition-colors ease-out duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
             </svg>
           </button>
-          <button class="w-12 h-12 rounded-full border-2 border-gray-travel text-gray-travel hover:text-akana-green hover:border-akana-green focus:outline-none focus:border-akana-green focus:text-akana-green py-3 px-3 transition-colors ease-out duration-300">
+          <button class="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-gray-travel text-gray-travel hover:text-akana-green hover:border-akana-green focus:outline-none focus:border-akana-green focus:text-akana-green py-2 px-2 sm:py-3 sm:px-3 transition-colors ease-out duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
             </svg>
@@ -242,10 +242,10 @@
       </div>
       <div class="text-center">
         <div id="typed">
-          <p>Ready to take your trip to<br>
+          <p>Ready to take your trip to<br class="hidden sm:block">
           another level of journey?</p>
         </div>
-        <div class="font-display text-akana-green text-4xl lg:text-5xl leading-normal lg:leading-relaxed">
+        <div class="font-display text-akana-green text-3xl sm:text-4xl lg:text-5xl leading-normal lg:leading-relaxed">
           <span class="typed"></span>
         </div>
         <button class="btn-after-type py-3 px-9 text-white mt-8 bg-akana-orange hover:bg-white hover:text-akana-orange border-2 border-transparent hover:border-akana-orange hover:font-medium focus:outline-none transition-all duration-150">Contact Us</button>
@@ -257,23 +257,23 @@
   <!-- Footer -->
   <footer class="font-footer py-16 bg-blue-50 border-t border-gray-300">
     <div class="container">
-      <div class="flex flex-row flex-wrap justify-between">
-        <div class="w-5/12 md:w-3/12">
+      <div class="flex flex-wrap flex-col md:flex-row justify-between">
+        <div class="w-7/12 md:w-3/12">
           <img class="mb-7" src="public/img//footer/Nav.png" alt="Logo Footer">
           <h5 class="font-medium text-base mb-3">Travelku House</h5>
           <p class="text-sm text-justify">Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55282</p>
         </div>
-        <div class="w-auto text-right md:text-left">
-          <h5 class="font-medium text-base mb-5">Perusahaan</h5>
+        <div class="w-auto md:text-left mt-7 md:mt-0">
+          <h5 class="font-medium text-base mb-3 md:mb-5">Perusahaan</h5>
           <a href="#" class="text-sm mb-3 block">Tentang Travelku</a>
           <a href="#" class="text-sm block">Hubungi Kami</a>
         </div>
-        <div class="w-auto text-right md:text-left">
-          <h5 class="font-medium text-base mb-5">Produk</h5>
+        <div class="w-auto md:text-left mt-7 md:mt-0">
+          <h5 class="font-medium text-base mb-3 md:mb-5">Produk</h5>
           <a href="#" class="text-sm mb-3 block">Tour</a>
           <a href="#" class="text-sm block">Travel</a>
         </div>
-        <div class="w-5/12 md:w-3/12 ml-auto md:ml-0 text-right md:text-left">
+        <div class="w-7/12 md:w-3/12 md:text-left mt-7 md:mt-0">
           <h5 class="font-medium text-base mb-4">Berlangganan Email Kami</h5>
           <input class="mb-5 rounder border-0 text-sm py-2 w-full" type="text" name="email" id="email" placeholder="Masukan Alamat Email">
           <button class="font-body font-medium py-2 px-3 rounded bg-akana-orange text-white text-xs">Submit</button>
