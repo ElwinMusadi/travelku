@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Styles CSS -->
+  <link rel="stylesheet" href="public/css/tailwind.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500&family=Raleway:wght@400;500;600;700&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="public/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="public/css/owl.theme.default.min.css">
+
+  <title>Travelku</title>
+</head>
+<body class="font-body antialiased overflow-x-hidden">
+  
+  <!-- Navbar -->
+  <!-- Default: bg-gray-800 -->
+  <nav id="navbar" class="fixed top-0 w-full bg-blur-lg lg:bg-blur-xs py-2 border-b transition-all ease-out duration-300 border-gray-400 border-opacity-50 z-20">
+    <div class="container">
+      <div class="relative flex items-center justify-between h-16">
+        <div class="absolute inset-y-0 right-0 flex items-center lg:hidden">
+          <!-- Mobile menu button-->
+          <button class="btn-toggle inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white focus:outline-none transition-all duration-300">
+            <svg class="menu block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+
+            <svg class="close hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="flex-1 flex items-center justify-between">
+          <div class="flex-shrink-0 flex items-center">
+            <a href="#">
+              <img class="block h-7 w-auto" src="public/img/Nav@2x.png" alt="Travelku">
+            </a>
+          </div>
+          <div class="hidden lg:block sm:ml-6 navigation">
+            <div class="flex">
+              <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+              <a href="#" class="text-gray-300 hover:text-white px-6 xl:px-9 text-base font-semibold hover:font-bold tracking-wider uppercase transition-all duration-150">Home</a>
+              <a href="#" class="text-gray-300 hover:text-white px-6 xl:px-9 text-base font-semibold hover:font-bold tracking-wider uppercase transition-all duration-150">Tour & Travel</a>
+              <a href="#" class="text-gray-300 hover:text-white px-6 xl:px-9 text-base font-semibold hover:font-bold tracking-wider uppercase transition-all duration-150">Mice Packages</a>
+              <a href="#" class="text-gray-300 hover:text-white pl-6 xl:pl-9 text-base font-semibold hover:font-bold tracking-wider uppercase transition-all duration-150">About Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir Navbar -->
+
+  <!-- Navbar Mobile -->
+  <div class="mobile-nav fixed w-full lg:hidden bg-blur-lg opacity-0 transform -translate-y-full transition-all duration-500 ease-out z-10">
+    <div class="container space-y-2 py-2">
+      <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+      <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Dashboard</a>
+      <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</a>
+      <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
+      <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="relative header flex bg-no-repeat bg-cover py-48 max-w-full h-auto mb-20" style="background-image: url('public/img/header/BG.png');">
+    <div class="container mb-24">
+      <div class="row flex justify-center md:justify-start items-center">
+        <div class="w-10/12 sm:w-full md:w-10/12 lg:w-8/12 xl:w-7/12 text-center md:text-left">
+          <h1 class="header-title font-display text-4xl leading-normal sm:text-5xl font-bold sm:leading-relaxed text-white transition-all duration-500">Lifelong memories, just <br class="hidden xl:block">a few clicks away</h1>
+          <p class="text-white text-sm sm:text-base leading-7 sm:leading-8 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum nisl interdum ex consequat aliquet.
+          Suspendisse consectetur nisi a odio molestie</p>
+          <button class="py-3 px-9 text-white mt-6 bg-gray-travel bg-opacity-30 bg-blur-md hover:bg-blur-lg transition-all duration-150">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="absolute bottom-0">
+      <div id="owl-one" class="owl-carousel flex">
+        <div class="item first w-80 text-white px-6 py-7 bg-gray-travel bg-opacity-30 bg-blur-md border-r border-gray-600 opacity-60 transition-all ease-in duration-200">
+          <h4 class="font-display text-lg mb-2">Lifelong memories, just a few clicks away</h4>
+          <p class="font-body text-xs leading-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum</p>
+        </div>
+        <div class="item w-80 text-white px-6 py-7 bg-gray-travel bg-opacity-30 bg-blur-md border-r border-gray-600 opacity-60 transition-all ease-in duration-200">
+          <h4 class="font-display text-lg mb-2">Discover yogyakarta, java paradise</h4>
+          <p class="font-body text-xs leading-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum</p>
+        </div>
+        <div class="item w-80 text-white px-6 py-7 bg-gray-travel bg-opacity-30 bg-blur-md border-r border-gray-600 opacity-60 transition-all ease-in duration-200">
+          <h4 class="font-display text-lg mb-2">Travel promo for your next order</h4>
+          <p class="font-body text-xs leading-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum</p>
+        </div>
+        <div class="item w-80 text-white px-6 py-7 bg-gray-travel bg-opacity-30 bg-blur-md border-r border-gray-600 opacity-60 transition-all ease-in duration-200">
+          <h4 class="font-display text-lg mb-2">Special honeymoon packages for you</h4>
+          <p class="font-body text-xs leading-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum</p>
+        </div>
+        <div class="w-80 text-white px-6 py-7 bg-gray-travel bg-opacity-30 bg-blur-md border-r border-gray-600 opacity-60 transition-all ease-in duration-200">
+          <h4 class="font-display text-lg mb-2">Let's Exploring the world you never see before</h4>
+          <p class="font-body text-xs leading-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Akhir Header -->
+
+  <!-- Travel Package -->
+  <section class="travel-package mb-20">
+    <div class="container">
+      <div class="flex flex-col md:flex-row justify-between items-center md:items-start">
+        <div class="flex flex-col space-y-14 xl:space-y-16 mb-20 lg:mb-0 max-w-img-package md:max-w-xs lg:max-w-sm xl:max-w-img-package justify-center">
+          <div class="title-package first">
+            <h1 class="font-display text-4xl xl:text-5xl text-center md:text-left text-akana-green leading-normal font-bold xl:leading-relaxed">Explore our <br class="hidden sm:block md:hidden xl:block">tailor-made package for your travel</h1>
+          </div>
+          <div class="item-package one relative bg-gray-400 w-full h-auto">
+            <img src="public/img/travel-package/package-1.png">
+            <div class="info-package absolute bottom-0 bg-white py-5 pl-4 pr-20 md:pr-10 xl:pr-24">
+              <h6 class="font-secondary text-sm md:text-xs xl:text-sm text-akana-orange uppercase mb-2">2 day 1 night</h6>
+              <h4 class="text-xl md:text-lg xl:text-xl font-semibold whitespace-pre-line">Lost in the wood
+                package</h4>
+            </div>
+          </div>
+          <div class="item-package two relative bg-gray-400 w-full h-auto">
+            <img src="public/img/travel-package/package-2.png">
+            <div class="info-package absolute bottom-0 bg-white py-5 pl-4 pr-20 md:pr-10 xl:pr-24">
+              <h6 class="font-secondary text-sm md:text-xs xl:text-sm text-akana-orange uppercase mb-2">6 days 3 night</h6>
+              <h4 class="text-xl md:text-lg xl:text-xl font-semibold whitespace-pre-line">Beach and sea
+                adventure package</h4>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col space-y-14 xl:space-y-16 max-w-img-package md:max-w-xs lg:max-w-sm xl:max-w-img-package justify-center">
+          <div class="item-package three relative bg-gray-400 w-full h-auto">
+            <img src="public/img/travel-package/package-3.png">
+            <div class="info-package absolute bottom-0 bg-white py-5 pl-4 pr-20 md:pr-10 xl:pr-24">
+              <h6 class="font-secondary text-sm md:text-xs xl:text-sm text-akana-orange uppercase mb-2">4 day 1 night</h6>
+              <h4 class="text-xl md:text-lg xl:text-xl font-semibold whitespace-pre-line">Omdo island
+                honeymoon package</h4>
+            </div>
+          </div>
+          <div class="item-package four relative bg-gray-400 w-full h-auto">
+            <img src="public/img/travel-package/package-4.png">
+            <div class="info-package absolute bottom-0 bg-white py-5 pl-4 pr-20 md:pr-10 xl:pr-24">
+              <h6 class="font-secondary text-sm md:text-xs xl:text-sm text-akana-orange uppercase mb-2">6 day 3 night</h6>
+              <h4 class="text-xl md:text-lg xl:text-xl font-semibold whitespace-pre-line">Camping and grill
+                honeymoon package</h4>
+            </div>
+          </div>
+          <div class="title-package last text-center md:text-left">
+            <h1 class="font-display text-3xl xl:text-2.5 text-akana-green leading-normal font-bold xl:leading-relaxed -mt-4">Ready for the next journey of a lifetime ?</h1>
+            <button class="py-3 px-9 text-white mt-6 bg-akana-orange hover:bg-white hover:text-akana-orange border-2 border-transparent hover:border-akana-orange hover:font-medium focus:outline-none transition-all duration-150">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Travel Package -->
+
+  <!-- Travel Info -->
+  <section class="travel-info mb-20">
+    <div class="container flex flex-wrap justify-between text-center">
+      <div class="w-6/12 md:w-auto mb-4 md:mb-0">
+        <h2 class="count font-secondary text-5xl text-akana-green leading-normal">1.538</h2>
+        <p class="font-secondary text-xl font-light text-gray-travel capitalize">Happy Traveller</p>
+      </div>
+      <div class="w-6/12 md:w-auto mb-4 md:mb-0">
+        <h2 class="count font-secondary text-5xl text-akana-green leading-normal">230</h2>
+        <p class="font-secondary text-xl font-light text-gray-travel capitalize">Forest Visited</p>
+      </div>
+      <div class="w-6/12 md:w-auto">
+        <h2 class="count font-secondary text-5xl text-akana-green leading-normal">742</h2>
+        <p class="font-secondary text-xl font-light text-gray-travel capitalize">Beach Visited</p>
+      </div>
+      <div class="w-6/12 md:w-auto">
+        <h2 class="count font-secondary text-5xl text-akana-green leading-normal">538</h2>
+        <p class="font-secondary text-xl font-light text-gray-travel capitalize">Island Visited</p>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Travel Info -->
+
+  <!-- About -->
+  <section class="about mb-96">
+    <div class="container">
+      <div class="relative" style="height: 500px;">
+        <img class="absolute inset-0 w-full h-full object-cover" src="public/img/about/about.png" alt="About">
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center flex flex-col items-center">
+          <div class="play flex items-center justify-center rounded-full w-14 h-14 mb-4 -mr-2 bg-white bg-opacity-30 bg-blur-md hover:bg-blur-lg cursor-pointer">
+            <img class="ml-1" src="public/img/about/play.png" alt="Play">
+          </div>
+          <div class="font-body font-bold tracking-more-widest uppercase text-white -mr-2">About<br>Travelku</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir About -->
+
+  <!-- Popular Destination -->
+  <section class="popular relative bg-blue-50" style="height: 623px;">
+    <div class="container relative" style="top: -310px;">
+      <div class="flex items-center justify-between mb-12">
+        <div class="font-display text-3xl font-bold text-akana-green">Popular Destination</div>
+        <div class="nav-popular">
+          <button class="w-12 h-12 rounded-full mr-6 border-2 border-gray-travel text-gray-travel hover:text-akana-green hover:border-akana-green focus:outline-none focus:border-akana-green focus:text-akana-green py-3 px-3 transition-colors ease-out duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <button class="w-12 h-12 rounded-full border-2 border-gray-travel text-gray-travel hover:text-akana-green hover:border-akana-green focus:outline-none focus:border-akana-green focus:text-akana-green py-3 px-3 transition-colors ease-out duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="owl-two" class="mb-20 flex owl-carousel">
+        <div class="item first relative flex-shrink-0" style="width: 375px; height: 440px;">
+          <img class="absolute inset-0 w-full h-auto" src="public/img/popular/popular-1.png" alt="Tangkuban">
+          <div class="absolute inset-0  bg-gradient-to-t from-gray-800 via-transparent"></div>
+          <div class="absolute text-3xl text-white left-10 bottom-10">Tangkuban Lake</div>
+        </div>
+        <div class="item second relative flex-shrink-0" style="width: 375px; height: 440px;">
+          <img class="absolute inset-0 w-full h-auto" src="public/img/popular/popular-2.png" alt="Tangkuban">
+          <div class="absolute inset-0 w-full h-full bg-gradient-to-t from-gray-800 via-transparent"></div>
+          <div class="absolute text-3xl text-white left-10 bottom-10">Purwo Forest</div>
+        </div>
+        <div class="item third relative flex-shrink-0" style="width: 375px; height: 440px;">
+          <img class="absolute inset-0 w-full h-auto" src="public/img/popular/popular-3.png" alt="Tangkuban">
+          <div class="absolute inset-0 w-full h-full bg-gradient-to-t from-gray-800 via-transparent"></div>
+          <div class="absolute text-3xl text-white left-10 bottom-10">Javanica Island</div>
+        </div>
+        <div class="item fourth relative flex-shrink-0" style="width: 375px; height: 440px;">
+          <img class="absolute inset-0 w-full h-auto" src="public/img/popular/popular-4.png" alt="Tangkuban">
+          <div class="absolute inset-0 w-full h-full bg-gradient-to-t from-gray-800 via-transparent"></div>
+          <div class="absolute text-3xl text-white left-10 bottom-10">Kolbano Beach</div>
+        </div>
+      </div>
+      <div class="text-center">
+        <div id="typed">
+          <p>Ready to take your trip to<br>
+          another level of journey?</p>
+        </div>
+        <div class="font-display text-akana-green text-4xl lg:text-5xl leading-normal lg:leading-relaxed">
+          <span class="typed"></span>
+        </div>
+        <button class="btn-after-type py-3 px-9 text-white mt-8 bg-akana-orange hover:bg-white hover:text-akana-orange border-2 border-transparent hover:border-akana-orange hover:font-medium focus:outline-none transition-all duration-150">Contact Us</button>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Popular Destination -->
+
+  <!-- Footer -->
+  <footer class="font-footer py-16 bg-blue-50 border-t border-gray-300">
+    <div class="container">
+      <div class="flex flex-row flex-wrap justify-between">
+        <div class="w-5/12 md:w-3/12">
+          <img class="mb-7" src="public/img//footer/Nav.png" alt="Logo Footer">
+          <h5 class="font-medium text-base mb-3">Travelku House</h5>
+          <p class="text-sm text-justify">Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55282</p>
+        </div>
+        <div class="w-auto text-right md:text-left">
+          <h5 class="font-medium text-base mb-5">Perusahaan</h5>
+          <a href="#" class="text-sm mb-3 block">Tentang Travelku</a>
+          <a href="#" class="text-sm block">Hubungi Kami</a>
+        </div>
+        <div class="w-auto text-right md:text-left">
+          <h5 class="font-medium text-base mb-5">Produk</h5>
+          <a href="#" class="text-sm mb-3 block">Tour</a>
+          <a href="#" class="text-sm block">Travel</a>
+        </div>
+        <div class="w-5/12 md:w-3/12 ml-auto md:ml-0 text-right md:text-left">
+          <h5 class="font-medium text-base mb-4">Berlangganan Email Kami</h5>
+          <input class="mb-5 rounder border-0 text-sm py-2 w-full" type="text" name="email" id="email" placeholder="Masukan Alamat Email">
+          <button class="font-body font-medium py-2 px-3 rounded bg-akana-orange text-white text-xs">Submit</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Akhir Footer -->
+  
+  <script src="public/js/jquery.min.js"></script>
+  <script src="public/js/script.js"></script>
+  <script src="public/js/owl.carousel.min.js"></script>
+  <script src="public/js/jquery.mousewheel.min.js"></script>
+  <script src="public/js/noframework.waypoints.min.js"></script>
+  <script src="public/js/scrollreveal.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <!-- <script src="node_modules/typed.js/src/typed.js"></script> -->
+  <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+</body>
+</html>
