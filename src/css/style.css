@@ -3,3 +3,6 @@
 @tailwind utilities;
 
 /* green-forest: #314035; " */
+html.sr, .popular .item {
+  visibility: hidden;
+}

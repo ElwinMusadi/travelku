@@ -16,6 +16,9 @@
   <link rel="stylesheet" href="public/css/owl.carousel.min.css">
   <link rel="stylesheet" href="public/css/owl.theme.default.min.css">
 
+  <!-- Scroll Reveal - Recommended to include in head tags -->
+  <script src="public/js/scrollreveal.min.js"></script>
+
   <title>Travelku</title>
 </head>
 <body class="font-body antialiased">
@@ -206,12 +209,12 @@
       <div class="flex items-center justify-between mb-12">
         <div class="w-1/2 font-display text-3xl font-bold text-akana-green">Popular Destination</div>
         <div class="nav-popular">
-          <button class="w-10 h-10 sm:w-12 sm:h-12 rounded-full mr-3 md:mr-6 border-2 border-gray-travel text-gray-travel hover:text-akana-green hover:border-akana-green focus:outline-none focus:border-akana-green focus:text-akana-green py-2 px-2 sm:py-3 sm:px-3 transition-colors ease-out duration-300">
+          <button type="button" role="presentation" class="prev w-10 h-10 sm:w-12 sm:h-12 rounded-full mr-3 md:mr-6 border-2 border-gray-travel text-gray-travel hover:text-akana-green hover:border-akana-green focus:outline-none focus:border-akana-green focus:text-akana-green py-2 px-2 sm:py-3 sm:px-3 transition-colors ease-out duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
             </svg>
           </button>
-          <button class="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-gray-travel text-gray-travel hover:text-akana-green hover:border-akana-green focus:outline-none focus:border-akana-green focus:text-akana-green py-2 px-2 sm:py-3 sm:px-3 transition-colors ease-out duration-300">
+          <button type="button" role="presentation" class="next w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-gray-travel text-gray-travel hover:text-akana-green hover:border-akana-green focus:outline-none focus:border-akana-green focus:text-akana-green py-2 px-2 sm:py-3 sm:px-3 transition-colors ease-out duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
             </svg>
@@ -241,7 +244,7 @@
         </div>
       </div>
       <div class="text-center">
-        <div id="typed">
+        <div id="typed" class="hidden">
           <p>Ready to take your trip to<br class="hidden sm:block">
           another level of journey?</p>
         </div>
@@ -288,7 +291,6 @@
   <script src="public/js/owl.carousel.min.js"></script>
   <script src="public/js/jquery.mousewheel.min.js"></script>
   <script src="public/js/noframework.waypoints.min.js"></script>
-  <script src="public/js/scrollreveal.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
   <!-- <script src="node_modules/typed.js/src/typed.js"></script> -->
   <!-- <script src="https://unpkg.com/scrollreveal"></script> -->

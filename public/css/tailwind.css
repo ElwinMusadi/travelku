@@ -2067,6 +2067,10 @@ select {
 
 /* green-forest: #314035; " */
 
+html.sr, .popular .item {
+  visibility: hidden;
+}
+
 @media (min-width: 640px) {
   .sm\:block {
     display: block;
