@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 /* green-forest: #314035; " */
-html.sr, .popular .item {
+html.sr .load-hidden, html.sr .travel-package .item {
   visibility: hidden;
 }

@@ -169,7 +169,7 @@ $(document).ready(function () {
   ScrollReveal({ reset: true });
   ScrollReveal().reveal('.title-package', { delay: 300, easing: 'ease-out' });
   ScrollReveal().reveal('.item-package', { delay: 400, easing: 'ease-out', scale: 0.9 });
-  ScrollReveal().reveal('#owl-two', { delay: 200, interval: 400, distance: '120px', origin: 'bottom',  easing: 'ease-out' });
+  ScrollReveal().reveal('#owl-two', { delay: 200, interval: 400, distance: '100px', origin: 'bottom',  easing: 'ease-out' });
   ScrollReveal({
     reset: false
   }).reveal('.btn-after-type', {
