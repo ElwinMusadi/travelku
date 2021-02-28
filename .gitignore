@@ -1,6 +1,7 @@
 node_modules/
 OwlCarousel
 waypoints/
+original/
 *.zip
 *.rar
 *.exe
