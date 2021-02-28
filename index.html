@@ -49,10 +49,10 @@
           <div class="hidden lg:block sm:ml-6 navigation">
             <div class="flex">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <a href="#" class="text-gray-300 hover:text-white px-6 xl:px-9 text-base font-semibold hover:font-bold tracking-wider uppercase transition-all duration-150">Home</a>
-              <a href="#" class="text-gray-300 hover:text-white px-6 xl:px-9 text-base font-semibold hover:font-bold tracking-wider uppercase transition-all duration-150">Tour & Travel</a>
-              <a href="#" class="text-gray-300 hover:text-white px-6 xl:px-9 text-base font-semibold hover:font-bold tracking-wider uppercase transition-all duration-150">Mice Packages</a>
-              <a href="#" class="text-gray-300 hover:text-white pl-6 xl:pl-9 text-base font-semibold hover:font-bold tracking-wider uppercase transition-all duration-150">About Us</a>
+              <a href="#home" class="page-scroll text-gray-300 hover:text-white px-6 xl:px-9 text-base font-semibold hover:font-bold tracking-wider uppercase transition-all duration-150">Home</a>
+              <a href="#popular" class="page-scroll text-gray-300 hover:text-white px-6 xl:px-9 text-base font-semibold hover:font-bold tracking-wider uppercase transition-all duration-150">Tour & Travel</a>
+              <a href="#travelPackage" class="page-scroll text-gray-300 hover:text-white px-6 xl:px-9 text-base font-semibold hover:font-bold tracking-wider uppercase transition-all duration-150">Mice Packages</a>
+              <a href="#about" class="page-scroll text-gray-300 hover:text-white pl-6 xl:pl-9 text-base font-semibold hover:font-bold tracking-wider uppercase transition-all duration-150">About Us</a>
             </div>
           </div>
         </div>
@@ -65,15 +65,15 @@
   <div class="mobile-nav fixed w-full lg:hidden bg-blur-lg opacity-0 transform -translate-y-full transition-all duration-500 ease-out z-10">
     <div class="container space-y-2 py-2">
       <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-      <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Dashboard</a>
-      <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</a>
-      <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
-      <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a>
+      <a href="#home" class="page-scroll text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+      <a href="#popular" class="page-scroll text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Tour & Travel</a>
+      <a href="#travelPackages" class="page-scroll text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Travel Packages</a>
+      <a href="#about" class="page-scroll text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About Us</a>
     </div>
   </div>
 
   <!-- Header -->
-  <header class="relative header flex bg-no-repeat bg-cover py-48 max-w-full h-auto mb-20" style="background-image: url('public/img/header/BG.jpg');">
+  <header id="home" class="relative header flex bg-no-repeat bg-cover py-48 max-w-full h-auto mb-20" style="background-image: url('public/img/header/BG.jpg');">
     <div class="container mb-24">
       <div class="row flex justify-center md:justify-start items-center">
         <div class="w-10/12 sm:w-full md:w-10/12 lg:w-8/12 xl:w-7/12 text-center md:text-left">
@@ -113,7 +113,7 @@
   <!-- Akhir Header -->
 
   <!-- Travel Package -->
-  <section class="travel-package mb-20">
+  <section id="travelPackage" class="travel-package mb-20">
     <div class="container">
       <div class="flex flex-col md:flex-row justify-between items-center md:items-start">
         <div class="flex flex-col space-y-14 xl:space-y-16 mb-20 lg:mb-0 max-w-img-package md:max-w-xs lg:max-w-sm xl:max-w-img-package justify-center">
@@ -188,7 +188,7 @@
   <!-- Akhir Travel Info -->
 
   <!-- About -->
-  <section class="about mb-96">
+  <section id="about" class="about mb-96">
     <div class="container">
       <div class="relative" style="height: 500px;">
         <img class="absolute inset-0 w-full h-full object-cover" src="public/img/about/about.jpg" alt="About">
@@ -206,7 +206,7 @@
   <!-- Popular Destination -->
   <section class="popular relative bg-blue-50" style="height: 623px;">
     <div class="container relative" style="top: -310px;">
-      <div class="flex items-center justify-between mb-12">
+      <div id="popular" class="flex items-center justify-between mb-12">
         <div class="w-1/2 font-display text-3xl font-bold text-akana-green">Popular Destination</div>
         <div class="nav-popular">
           <button type="button" role="presentation" class="prev w-10 h-10 sm:w-12 sm:h-12 rounded-full mr-3 md:mr-6 border-2 border-gray-travel text-gray-travel hover:text-akana-green hover:border-akana-green focus:outline-none focus:border-akana-green focus:text-akana-green py-2 px-2 sm:py-3 sm:px-3 transition-colors ease-out duration-300">

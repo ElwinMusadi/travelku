@@ -62,6 +62,20 @@ btnToggle.addEventListener('click', function() {
 // Owl Carousel
 
 $(document).ready(function () {
+  // Page smooth scrolling animate
+  $('.page-scroll').on('click', function (e) {
+    const tujuan = $(this).attr('href');
+    const elemenTujuan = $(tujuan);
+
+    const jarak = 80;
+    $('html').animate({
+      scrollTop: elemenTujuan.offset().top - jarak
+    }, 800);
+
+    e.preventDefault();
+  });
+
+  // Owl Carousel
   let owl = $("#owl-one");
   owl.owlCarousel({
     items: 1,
